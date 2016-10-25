@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Axialent | Administration</title>
+        <title>Sonrisas | Administración</title>
 
         <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/main.css') }}" />
         <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/fancyAlert.min.css') }}" />

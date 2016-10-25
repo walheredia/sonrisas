@@ -1,12 +1,10 @@
-@extends('layout')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 
     <div class="container">
         
         <div class="row text-center">
 
-            <h1>Iniciar Sesión</h1>
+            <h1>Iniciión</h1>
 
             <div class="col-md-4 col-md-offset-4 text-left">
 
@@ -53,4 +51,5 @@
 
     </div>
 
-@stop
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
